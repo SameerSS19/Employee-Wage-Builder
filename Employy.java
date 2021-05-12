@@ -6,8 +6,8 @@ public static void main(String[] args)
 	System.out.println("Wellcom to the Employee Wage Builder");
 
 	int x = 1;
-	int y = 0;
-	if (x > y) 
+	double empCheck = Math.floor(Math.random() * 10) % 2;
+	if ( empCheck == x )
 	{
 		System.out.println("Employee is Present");
 	}
